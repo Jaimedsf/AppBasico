@@ -1,5 +1,3 @@
-var fbtoken = "";
-
 function saveForm() {
 	var message = document.getElementById("feedbackmessageTextArea").value;
 	var contact = document.getElementById("contactField").value;
