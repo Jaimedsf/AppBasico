@@ -2,7 +2,7 @@ import pymongo
 from bson.json_util import dumps
 
 
-dburi = "mongodb+srv://appbasicuser:appbasicusert3st3@cluster0-jvnpg.mongodb.net/test?retryWrites=true"
+client = pymongo.MongoClient("mongodb+srv://jaimegdj:87149562@cluster0-bymhf.mongodb.net/test?retryWrites=true")
 dbname = "test"
 dbcollectionname = "messages"
 	
